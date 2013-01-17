@@ -4,13 +4,21 @@
 # Licensed under the MIT license (see http://www.opensource.org/licenses/mit-license.php for details)
 */?><html>
 <head>
-<?php include 'head.php'; ?>
+    <link type="text/css" rel="stylesheet" media="all" href="style.css">
     <link rel="stylesheet" type="text/css" href="upload.css" />
+    <script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.8.4.custom.min.js"></script>
     <script type="text/javascript" src="jquery.filedrop.js"></script>
     <script type="text/javascript" src="status_monitor.js"></script>
 </head>
 <body>
-<?php include 'header.php'; ?>
+<div class="header">
+<div class="logo-block">
+</div>
+Upload Center
+</div>
+
+<div class="main-block">
 
 <div class="page_name">Upload File</div>
 
