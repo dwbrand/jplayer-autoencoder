@@ -12,6 +12,8 @@ Requirements
 ------------
 
 * PHP
+* jQuery 1.8.2 or newer
+* jQueryUI 1.8.4 or newer
 * Bash shell
 * ffmpeg (compiled with libvorbis support)
 
