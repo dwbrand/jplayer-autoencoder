@@ -1,0 +1,78 @@
+#status_table .header_row {
+  font-weight:normal;
+  background:#eee;
+}
+
+.column-status {
+height: .75em;
+width: 90px;
+height:16px;
+}
+.status-encode-processing {
+background: url('159-16.gif') no-repeat center transparent;
+}
+
+.status-requested {
+background: url('15.png') no-repeat center transparent;
+}
+
+.status-complete {
+background: url('30.png') no-repeat center transparent;
+}
+
+
+.status-encode-failed,
+.status-filemove-failed {
+background: url('13.png') no-repeat center transparent;
+}
+
+#dropzone {
+width:693px;
+padding:50px;
+text-align:center;
+background: #dddddd;
+border: black dashed 3px;
+margin:10px 0;
+}
+
+#dropzone.hovering {
+background: #ddffdd;
+}
+
+#dropzone.processing {
+background: #ffffdd;
+}
+
+.progressBarProg {
+  background: transparent url('greenprogress_right.gif') no-repeat;
+  background-position: 100% 0%;
+  display: block;
+  margin-left: 12px;
+  height: 25px;
+  padding: 6px 0 0;
+  font-size: 12px;
+}
+
+.progressBar {
+  background: url('greenprogress_left.gif') 0% 0% no-repeat transparent;
+  margin: 5px;
+  color: white;
+  width: 774px;
+}
+
+.progressItem {
+  background: #EEE;
+  padding: 1px 2px;
+  margin: 5px 0;
+  display: block;
+  border: solid 1px black;
+}
+
+.progressName {
+  margin: 10px 10px 0;
+  font-size: 16px;
+}
+#status_table {
+font-size: 16px;
+line-height: 20px;
+}

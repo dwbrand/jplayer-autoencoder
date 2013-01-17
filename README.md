@@ -11,5 +11,6 @@ and have it auto-process into the appropriate files types for HTML audio automat
 Requirements
 ------------
 
-PHP
-Bash shell access
+* PHP
+* Bash shell
+* ffmpeg (compiled with libvorbis support)
