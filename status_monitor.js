@@ -1,3 +1,9 @@
+/*
+# Copyright (c) 2011-2012 DW Brand
+# All Rights Reserved
+# Licensed under the MIT license (see http://www.opensource.org/licenses/mit-license.php for details)
+*/
+
 function update_status(log_object) {
   var rendered = "";
   var table_header = '<tr class="header_row"><th class="column-source">Source File</th><th class="column-status column-oggstatus">OGG Status</th><th class="column-status column-mp3-status">MP3 Status</th><th class="column-time column-started">Started</td></tr>';

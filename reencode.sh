@@ -1,4 +1,8 @@
 #!/bin/bash
+# Copyright (c) 2011-2012 DW Brand
+# All Rights Reserved
+# Licensed under the MIT license (see http://www.opensource.org/licenses/mit-license.php for details)
+
 # src_folder must match $processing_folder in uploadify.php
 src_folder="/tmp/admin/processing"
 

@@ -1,4 +1,9 @@
-<?php
+<?php  /*
+# Copyright (c) 2011-2012 DW Brand
+# All Rights Reserved
+# Licensed under the MIT license (see http://www.opensource.org/licenses/mit-license.php for details)
+*/
+
 function die_log($a) {
   error_log($a);
   echo $a;
